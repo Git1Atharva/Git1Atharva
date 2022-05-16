@@ -1,0 +1,22 @@
+To push new code
+
+First go to file location using
+
+PWD
+cd your file path
+
+using ls you can able to see your file.
+
+
+Initialize directory using
+git init
+git add .
+git status
+
+send message to git using
+git commit -m "First commit"
+
+
+Then use following command to upload your file
+git remote add origin https://github.com/Git1Atharva/new.git
+git push -u origin main
